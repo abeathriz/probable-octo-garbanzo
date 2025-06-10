@@ -1,5 +1,5 @@
-url = "https://raw.githubusercontent.com/abeathriz/probable-octo-garbanzo/refs/heads/main/bases_tratadas/dadostratadosfarfetch.csv"
-df = pd.read_csv(url, sep=';')
+csv = "https://raw.githubusercontent.com/abeathriz/probable-octo-garbanzo/refs/heads/main/bases_tratadas/dadostratadosfarfetch.csv"
+df = pd.read_csv(csv, sep=';')
 
 st.dataframe(df)
 st.subheader('Análise de nulos')

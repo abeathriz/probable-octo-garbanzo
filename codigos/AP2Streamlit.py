@@ -1,7 +1,5 @@
 df = pd.read_csv("/mount/src/probable-octo-garbanzo/refs/heads/main/bases_tratadas/dadostratadosfarfetch.csv", sep=';')
 
-#df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')
-
 st.dataframe(df)
 
 st.subheader('Análise de nulos')

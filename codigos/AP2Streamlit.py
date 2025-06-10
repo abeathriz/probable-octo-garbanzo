@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')
+#df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')
+df = pd.read_csv('https://github.com/abeathriz/probable-octo-garbanzo/tree/07d00f6ed07dc7cf7900cf7eab19fc2e0259ed93/bases_originais, sep=';')
 
 st.dataframe(df)
 

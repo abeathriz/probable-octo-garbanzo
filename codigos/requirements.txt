@@ -1,4 +1,4 @@
-streamlit as st
-pandas as pd
-plotly as pl
-numpy as np
+streamlit
+pandas
+plotly
+numpy

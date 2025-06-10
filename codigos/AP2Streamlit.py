@@ -1,4 +1,4 @@
-url = "https://raw.githubusercontent.com/abeathriz/probable-octo-garbanzo/refs/heads/main/bases_tratadas/dadostratadosfarfetch.csv"
+url = "/mount/src/probable-octo-garbanzo/refs/heads/main/bases_tratadas/dadostratadosfarfetch.csv"
 df = pd.read_csv(url, sep=';')
 
 #df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')

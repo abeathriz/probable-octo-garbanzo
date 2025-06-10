@@ -1,9 +1,3 @@
->pip install plotly
-
-import streamlit as st
-import pandas as pd
-import plotly as px
-
 df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')
 
 st.dataframe(df)

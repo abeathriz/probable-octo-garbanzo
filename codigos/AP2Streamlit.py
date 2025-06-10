@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
 
 df = pd.read_csv('../bases_tratadas/dadostratadosfarfetch.csv', sep=';')
 
